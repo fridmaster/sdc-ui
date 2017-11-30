@@ -23,6 +23,7 @@ export class InputComponent {
         this.control = new FormControl('', []);
     }
 
+
     onValueChange() {
         this.baseEmitter.emit(this.value);
     }
